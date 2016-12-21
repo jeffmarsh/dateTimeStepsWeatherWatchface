@@ -1,0 +1,83 @@
+{
+    "author": "jeffmarsh@mac.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "dtsw",
+    "pebble": {
+        "displayName": "Date Time Steps and Weather",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/BTN_SETUP",
+                    "name": "BTN_SETUP",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BTN_UP",
+                    "name": "BTN_UP",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BTN_DOWN",
+                    "name": "BTN_DOWN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BatteryEmpty",
+                    "name": "BATTERY_EMPTY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery25",
+                    "name": "BATTERY_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery50",
+                    "name": "BATTERY_50",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery75",
+                    "name": "BATTERY_75",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery100",
+                    "name": "BATTERY_100",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BatteryCharge",
+                    "name": "BATTERY_CHARGE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "7409396f-6ef2-4673-9f3d-fecdc77f8243",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
